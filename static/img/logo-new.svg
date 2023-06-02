@@ -1,0 +1,41 @@
+<svg viewBox="332.251 341.255 359.55 85.458" width="359.55" height="85.458" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs></defs>
+  <g id="logo-group">
+    <image id="container" x="272" y="144" width="480" height="480" style="display: none;" transform="translate(0 0)" xlink:href=""></image>
+    <g id="logo-center" transform="translate(5.684341886080802e-14 0)">
+      <image id="icon_container" x="0" y="0" style="display: none;" xlink:href=""></image>
+      <g id="slogan" style="font-style:oblique;font-weight:700;font-size:32px;line-height:1;font-family:Lato;font-variant-ligatures:none;text-align:center;text-anchor:middle" transform="translate(0 0)"></g>
+      <g id="title" style="font-style:normal;font-weight:normal;font-size:72px;line-height:1;font-family:'Brandmark Sans 24 Spectrum';font-variant-ligatures:normal;text-align:center;text-anchor:middle" transform="translate(0 0)">
+        <g id="path206216" aria-label="D" transform="translate(0 325.02268) translate(332.2505937499999 17.674879999999995) scale(1.67) translate(-404.93656 49.536)">
+          <rect x="78.61229" y="75.224" class="c3" width="11.63645" height="49.55247" transform="translate(326.324278 -124.759999)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#9e3bbc" stroke="#9e3bbc"></rect>
+          <path class="c1" d="M96.61101,124.77647H78.61229v-10.66676h17.99872c7.78036,0,14.10995-6.32959,14.10995-14.10948 s-6.32959-14.10948-14.10995-14.10948H78.61229V75.224h17.99872c13.66203,0,24.77671,11.11467,24.77671,24.77624 S110.27304,124.77647,96.61101,124.77647z" transform="translate(326.324278 -124.759999)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#6e338d" stroke="#6e338d"></path>
+          <rect x="78.61228" y="75.224" class="c2" width="11.63645" height="10.66675" transform="translate(326.324278 -124.759999)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#8637a4" stroke="#8637a4"></rect>
+          <rect x="78.61228" y="114.10972" class="c2" width="11.63645" height="10.66675" transform="translate(326.324278 -124.759999)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#8637a4" stroke="#8637a4"></rect>
+        </g>
+        <g id="path206218" aria-label="o" transform="translate(0 325.02268) translate(409.78473584999983 42.20384) scale(1.67) translate(-451.36419 34.848)">
+          <path class="c1" d="M99.99953,117.92154c-9.82015,0-17.8098-7.98965-17.8098-17.81027s7.98965-17.81027,17.8098-17.81027 c9.8211,0,17.81075,7.98965,17.81075,17.81027S109.82063,117.92154,99.99953,117.92154z M99.99953,92.96775 c-3.93848,0-7.14305,3.20457-7.14305,7.14352c0,3.93896,3.20457,7.14352,7.14305,7.14352c3.93942,0,7.144-3.20457,7.144-7.14352 C107.14352,96.17232,103.93895,92.96775,99.99953,92.96775z" transform="translate(369.17446 -117.149)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#6e338d" stroke="#6e338d"></path>
+        </g>
+        <g id="path206220" aria-label="M" transform="translate(0 325.02268) translate(479.02794584999975 17.674879999999995) scale(1.67) translate(-492.82719 49.536)">
+          <rect x="74.65495" y="75.224" class="c1" width="11.63645" height="49.55247" transform="translate(418.17542 -124.75905)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#6e338d" stroke="#6e338d"></rect>
+          <polygon class="c3" points="105.81809,111.69369 103.7429,115.5725 96.25682,115.5725 94.18163,111.69369 74.65177,75.22305 86.28822,75.22305 99.99986,100.83298 " transform="translate(418.17542 -124.75905)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#9e3bbc" stroke="#9e3bbc"></polygon>
+          <rect x="113.71178" y="75.224" class="c1" width="11.63645" height="49.55247" transform="translate(418.17542 -124.75905)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#6e338d" stroke="#6e338d"></rect>
+          <polygon class="c3" points="125.34795,75.22305 105.81809,111.69369 103.7429,115.5725 96.25682,115.5725 94.18163,111.69369 99.99986,100.83298 113.7115,75.22305 " transform="translate(418.17542 -124.75905)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#9e3bbc" stroke="#9e3bbc"></polygon>
+          <polygon class="c2" points="86.28882,75.224 74.65497,75.224 74.65497,75.22903 86.29142,96.95926 86.29142,75.22903 " transform="translate(418.17542 -124.75905)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#8637a4" stroke="#8637a4"></polygon>
+          <polygon class="c2" points="113.71185,75.224 113.71185,96.95274 125.34736,75.224 " transform="translate(418.17542 -124.75905)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#8637a4" stroke="#8637a4"></polygon>
+        </g>
+        <g id="path206222" aria-label="i" transform="translate(0 325.02268) translate(575.03394125 16.232000000000006) scale(1.67) translate(-550.31581 50.4)">
+          <rect x="94.6666" y="83.03774" class="c1" width="10.66675" height="34.12527" transform="translate(456.30723 -117.09962)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#6e338d" stroke="#6e338d"></rect>
+          <circle class="c3" cx="100" cy="72.69104" r="5.99142" transform="translate(456.30723 -117.09962)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#9e3bbc" stroke="#9e3bbc"></circle>
+        </g>
+        <g id="path206224" aria-label="n" transform="translate(0 325.02268) translate(604.26917835 42.20384) scale(1.67) translate(-567.82194 34.848)">
+          <path class="c1" d="M100,82.30099c-9.62128,0-17.449,7.82771-17.449,17.44901v17.41301h10.66675V99.75 c0-3.73962,3.04264-6.78225,6.78225-6.78225s6.78225,3.04263,6.78225,6.78225v17.41301H117.449V99.75 C117.449,90.12871,109.62128,82.30099,100,82.30099z" transform="translate(485.27094 -117.14899)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#6e338d" stroke="#6e338d"></path>
+        </g>
+        <g id="path206226" aria-label="i" transform="translate(0 325.02268) translate(671.78956625 16.232000000000006) scale(1.67) translate(-608.25331 50.4)">
+          <rect x="94.6666" y="83.03774" class="c1" width="10.66675" height="34.12527" transform="translate(514.24473 -117.09962)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#6e338d" stroke="#6e338d"></rect>
+          <circle class="c3" cx="100" cy="72.69104" r="5.99142" transform="translate(514.24473 -117.09962)" stroke-width="0" stroke-linejoin="miter" stroke-miterlimit="2" fill="#9e3bbc" stroke="#9e3bbc"></circle>
+        </g>
+      </g>
+      <image id="icon" x="0" y="0" style="display: none;" xlink:href=""></image>
+    </g>
+  </g>
+</svg>

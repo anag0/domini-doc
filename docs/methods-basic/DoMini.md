@@ -4,6 +4,7 @@ description: DoMini or $ selector function
 ---
 
 # DoMini()
+A constructor method to create a Dominified object from a [selector](https://www.w3schools.com/css/css_selectors.asp) or an [Element](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector).
 
 ## Variations
 

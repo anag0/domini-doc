@@ -4,10 +4,12 @@ sidebar_position: 1
 
 # What is DoMini
 
-A minimalistic HTML document manipulation and traversal tool. Syntactically indentical to jQuery, but much smaller with only the essential features.
+A minimalistic HTML document manipulation and traversal tool.
+
+Syntactically mostly indentical to jQuery, but much smaller with only the essential features.
 
 ## Installation
-Use npm or yarn to install TypeWriter with a single command
+Use npm or yarn to install DoMini with a single command
 
 ```shell
 # with npm
@@ -18,13 +20,13 @@ yarn add domini
 ```
 ## Via CDN
 
-If you prefer a build, use the CDN version
+If you prefer a build, use the CDN version (all features)
 
 ```html
 <script src="https://unpkg.com/domini@latest/dist/domini.js"></script>
 ```
 
-..or individually:
+..or individually (core + modules):
 
 ```html
 <script src="https://unpkg.com/domini@latest/dist/domini-core.js"></script>

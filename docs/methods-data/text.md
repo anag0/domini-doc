@@ -7,14 +7,14 @@ description: Get or Set Element the textContent value
 
 ## Variations
 
-### .text(): ``String``
-Gets the textContent value
+### .text(): ``String|undefined``
+Gets the textContent value from the first matching element
 ```javascript
 console.log( $( "p" ).text() );
 ```
 
 ### .text( ``String`` v ): ``self``
-Sets node textContent to the argument value.
+Sets textContent to the argument value for all the matching elements.
 ```javascript
 $( "p" ).text('Text!');
 ```

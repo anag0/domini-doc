@@ -7,8 +7,8 @@ description: Get or Set a node attribute value
 
 ## Variations
 
-### .attr( ``String`` a ): ``String|null``
-Returns the last element's attribute value matched by the DoMini object.
+### .attr( ``String`` a ): ``String|undefined``
+Returns the first element's attribute value matched by the DoMini object.
 ```javascript
 $("p").attr('id');
 ```

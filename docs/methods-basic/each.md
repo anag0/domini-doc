@@ -1,10 +1,10 @@
 ---
-description: Iterates throught the elements matched, executes a callback function for each iteration
+description: Iterates throught the elements matched, executes a callback function for each iteration.
 ---
 
-# .forEach()
+# .each()
 
-### .forEach( callback ( n ``Element``, index ``Int``, arr ``array``) ): ``self``
+### .each( callback ( index ``Int``, n ``Element``, arr ``array``) ): ``self``
 Iterates throught the elements matched, executes a callback function for each iteration.
 
 <details>
@@ -17,12 +17,12 @@ Iterates throught the elements matched, executes a callback function for each it
 
 ```javascript
 // No arguments
-$( "p" ).forEach(function() {
+$( "p" ).each(function() {
   console.log( $( this ).text() );
 });
 
 // With arguments
-$( "p" ).forEach(function( el, index, arr ) {
+$( "p" ).each(function( index, el, arr ) {
   console.log( 'Paragraph ' + index + ": " + $( this ).text() );
 });
 ```

@@ -7,8 +7,8 @@ description: Get or Set the node dataset attribute value
 
 ## Variations
 
-### .data( ``String`` a ): ``String|null``
-Returns the last element's dataset ``data-{key}`` value matched by the DoMini object.
+### .data( ``String`` a ): ``String``
+Returns the first element's dataset ``data-{key}`` value matched by the DoMini object.
 ```javascript
 $("p").data('customData');
 ```

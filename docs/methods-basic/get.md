@@ -1,5 +1,4 @@
 ---
-sidebar_position: 2
 description: Retrieve all or one of the elements matched by the DoMini object
 ---
 

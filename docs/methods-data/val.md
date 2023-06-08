@@ -7,8 +7,8 @@ description: Get or Set element value matched by the DoMini object
 
 ## Variations
 
-### .val(): ``String``
-Returns the last element's value matched by the DoMini object
+### .val(): ``String|undefined``
+Returns the first element's value matched
 ```javascript
 console.log( $( "input[type=text]" ).val() );
 ```

@@ -1,9 +1,7 @@
-name: Build and upload to production
+name: Build
 
 on:
   push:
-    branches: [ "main" ]
-  pull_request:
     branches: [ "main" ]
 
 jobs:

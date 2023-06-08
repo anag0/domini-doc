@@ -34,7 +34,7 @@ jobs:
           # The private key.
           key: ${{ secrets.key }}
           uploads: |
-            ./build/ => ${{ secrets.path }}
+            ./build/ => ${{ secrets.remote_www_path }} # NEVER EVER USE THE secrects.PATH variable, it messes with node!!!
           ignore: |
             *.git
             .github

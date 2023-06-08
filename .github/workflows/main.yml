@@ -17,13 +17,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 18
-          cache: npm
-          
-      - name: NPM CI
-        run: npm ci
-        
-      - name: NPM Build
-        run: npm run build
+          cache: yarn
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+      - name: Build website
+        run: yarn build
 
       - name: SFTP Upload
         # You may pin to the exact commit or the version.

@@ -1,9 +1,10 @@
 ---
-sidebar_position: 2
 description: Get or Set the node dataset attribute value
 ---
 
 # .data()
+
+Get or Set the node dataset attribute value.
 
 ## Variations
 

@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'DoMini',
-  tagline: 'A minimalistic HTML document manipulation and traversal tool',
+  tagline: 'A minimalistic HTML document manipulation and traversal javascript library',
   favicon: 'img/domini-favicon.png',
 
   // Set the production url of your site here
@@ -72,10 +72,10 @@ const config = {
       // Replace with your project's social card
       image: 'img/domini-social-card.png',
       navbar: {
-        title: 'Home',
+        title: '',
         logo: {
           alt: 'Home',
-          src: 'img/logo-new.svg',
+          src: 'img/domin-logo-132x2.png',
         },
         items: [
           {
@@ -161,6 +161,11 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
     }),
 };

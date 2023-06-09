@@ -1,9 +1,10 @@
 ---
-sidebar_position: 5
 description: Get or Set Element the textContent value
 ---
 
 # .text()
+
+Get or Set Element the textContent value.
 
 ## Variations
 
@@ -13,7 +14,7 @@ Gets the textContent value from the first matching element
 console.log( $( "p" ).text() );
 ```
 
-### .text( ``String`` v ): ``self``
+### .text( ``String`` text ): ``self``
 Sets textContent to the argument value for all the matching elements.
 ```javascript
 $( "p" ).text('Text!');

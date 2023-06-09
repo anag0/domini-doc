@@ -15,5 +15,5 @@ console.log( 'Parent: ', $( "div" ).parent() );
 ### .parent(``String`` selector): ``DoMini``
 Gets the direct parent elements (Dominified) matching the selector for the selected elements
 ```javascript
-console.log( 'Parents matching ".prent-class": ', $( "div" ).parent('.parent-class') );
+console.log( 'Parents matching ".parent-class": ', $( "div" ).parent('.parent-class') );
 ```

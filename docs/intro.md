@@ -18,6 +18,34 @@ npm i domini --save-dev
 # with yarn
 yarn add domini
 ```
+
+### In code
+
+Complete library:
+
+```javascript
+import DoMini from domini;
+
+DoMini(function($){
+    //.. do your thing
+});
+```
+
+Core and optional modules:
+
+```javascript
+import "domini/dist/domini-core";
+import "domini/dist/domini-animate";
+import "domini/dist/domini-highlight";
+import "domini/dist/domini-serialize";
+import "domini/dist/domini-viewport";
+import "domini/dist/domini-xhttp";
+
+DoMini(function($){
+    //.. do your thing
+});
+```
+
 ## Via CDN
 
 If you prefer a build, use the CDN version (all features)
@@ -42,6 +70,11 @@ If you prefer a build, use the CDN version (all features)
 DoMini loads itself to the ```DoMini``` variable in the global namespace.
 
 ```javascript
+// Fires on DOMContentLoaded or immediately if DOMContentLoaded was fired
+DoMini(function($){ 
+    $('#selector').text('Hi!');
+});
+
 // Similarly to jQuery
 DoMini('#selector').text('Hi!');
 
@@ -53,11 +86,6 @@ $('#selector').text('Hi!');
 (function($){
     $('#selector').text('Hi!');
 })(DoMini);
-
-// Fires on DOMContentLoaded or immediately if DOMContentLoaded was fired
-DoMini(function($){ 
-    $('#selector').text('Hi!');
-});
 ```  
 
 ## Medthods Reference

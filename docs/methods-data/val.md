@@ -1,9 +1,10 @@
 ---
-sidebar_position: 6
 description: Get or Set element value matched by the DoMini object
 ---
 
 # .val()
+
+Get or Set element value matched by the DoMini object.
 
 ## Variations
 
@@ -13,7 +14,7 @@ Returns the first element's value matched
 console.log( $( "input[type=text]" ).val() );
 ```
 
-### .val( ``String`` v ): ``self``
+### .val( ``String`` value ): ``self``
 Sets the node value to the argument value of the elements matched
 ```javascript
  $( "input[type=text]" ).val('value');

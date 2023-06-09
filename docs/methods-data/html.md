@@ -1,9 +1,10 @@
 ---
-sidebar_position: 3
 description: Get or Set the innerHTML value
 ---
 
 # .html()
+
+Get or Set the innerHTML value.
 
 ## Variations
 
@@ -13,7 +14,7 @@ Gets the innerHTML value of the first matched element
 console.log( $( "p" ).html() );
 ```
 
-### .html( ``String`` v ): ``self``
+### .html( ``String`` value ): ``DoMini``
 Sets node innerHTML for all the matched elements
 ```javascript
 $( "p" ).html('Link: <a href='#'>Click here!</a>');

@@ -6,7 +6,7 @@ import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import styles from './index.module.css';
-import HomePageDown from '../components/HomePageDown';
+import {HomePageDown, HomePageCompare} from '../components/HomePageDown';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -44,11 +44,12 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`jQuery alternative`}
-      description="A minimalistic HTML document manipulation and traversal tool, a jQuery alternative.">
+      description="A minimalistic HTML document manipulation and traversal javascript tool">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
         <HomePageDown />
+        <HomePageCompare />
       </main>
     </Layout>
   );

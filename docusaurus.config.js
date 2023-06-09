@@ -11,7 +11,7 @@ const config = {
   favicon: 'img/domini-favicon.png',
 
   // Set the production url of your site here
-  url: 'https://ernestmarcinko.com',
+  url: 'https://dominijs.com',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -19,7 +19,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'anag0', // Usually your GitHub org/user name.
-  projectName: 'domini', // Usually your repo name.
+  projectName: 'domini-doc', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -52,6 +52,10 @@ const config = {
         },*/
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
+        },
+        gtag: {
+          trackingID: 'G-F87BC24RBG',
+          anonymizeIP: true,
         },
       }),
     ],

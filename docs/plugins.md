@@ -1,4 +1,10 @@
+---
+description: Plugins are the way to extend DoMini features.
+---
+
 # Plugins
+
+Plugins are the best way to extend DoMini features. Check out the best practices below on how to create individual plugins.
 
 ## Plugin via constructor
 
@@ -11,7 +17,7 @@ The ``DoMini.fn`` attribute acts as the ``DoMini`` object constructor. Adding at
          * Do your stuff here
          */ 
 
-        // To perserve chaining always return this
+        // To perserve chaining return this
         return this;
     };
 }(DoMini));
@@ -29,11 +35,12 @@ You can also declare a plugin via the ``DoMini._fn.plugin(plugin_name, plugin_ob
 This method will automatically:
  - Extend the ``DoMini.fn`` constructor with the ``plugin_name`` attribute
  - Calling the method will create a new object from the ``plugin_object`` constructor
- - After creating the new object the ``object.init()`` method is also called 
+ - After creating the new object the ``object.init()`` method is automatically called 
 
 
  ```javascript
 var myPlugin = {
+    // Required
     init: function(options, element) {
         // This is automatically executed on creation
     },

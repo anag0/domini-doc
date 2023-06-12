@@ -4,6 +4,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import CodeBlock from '@theme/CodeBlock';
 
 import styles from './index.module.css';
 import {HomePageDown, HomePageCompare} from '../components/HomePageDown';
@@ -29,10 +30,13 @@ function HomepageHeader() {
           
         </div>
         <div className="home__code">
-          
-          <p><code>npm install domini --save-dev</code></p>
+          <p style={{display: 'inline-block'}}>
+            <CodeBlock language='bash'>npm install domini --save-dev</CodeBlock>
+          </p>
           <p>..or directly:</p>
-          <p><code>&lt;script src=&quot;https://unpkg.com/domini@latest/dist/domini.js&quot;&gt;&lt;/script&gt;</code></p>
+          <p style={{display: 'inline-block', maxWidth: '70vw'}}>
+            <CodeBlock language='html'>&lt;script src=&quot;https://unpkg.com/domini@latest/dist/domini.js&quot;&gt;&lt;/script&gt;</CodeBlock>
+          </p>
         </div>
       </div>
     </header>

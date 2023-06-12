@@ -1,0 +1,8 @@
+{
+  "label": "DoMini Modules",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "description": "Optional core modules for DoMini"
+  }
+}

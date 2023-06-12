@@ -42,12 +42,6 @@
   margin-top: 2rem;
 }
 
-.home__code code {
-  background: rgba(48, 48, 48, 0.151);
-  border-radius: 0;
-  padding: 0.5em 1em;
-}
-
 .docItemCol_node_modules-\@docusaurus-theme-classic-lib-theme-DocItem-Layout-styles-module a {
   background: var(--content-a-bg-color);
   padding: 0 4px 2px;

@@ -2,7 +2,7 @@
 description: Highlights list of keywords in the selected nodes and descendant contents.
 ---
 
-# .highlight()
+# Highlight
 
 Highlights list of keywords in the selected nodes and descendant contents.
 
@@ -48,6 +48,7 @@ import "domini/dist/domini-highlight";
   </div>
 </details>
 
+## .highlight() method
 
 ### .highlight(``Array`` words, ``Object`` options)
 
@@ -97,3 +98,36 @@ span.highlight {
 ```
 
 :::
+
+
+## .unHighlight() method
+
+### .unHighlight(``Object`` options)
+
+Unhighlights previously highlighted elements matching the options.
+
+#### Usage
+
+```javascript
+// Unhighlights everything previously highlighted (with default options)
+$('p').unHighlight();
+```
+
+#### Custom options
+
+```javascript
+// Unhighlights everything previously highlighted with custom options
+$('p').unHighlight({
+    className: 'myHighlight',
+    element: 'span'
+});
+```
+
+#### Default options
+
+```javascript
+var defaultOptions = {
+    className: 'highlight',
+    element: 'span'
+};
+```

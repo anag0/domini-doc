@@ -2,7 +2,7 @@
 description: Adds animation to an element property with a defined easing method
 ---
 
-# .animate()
+# Animate
 
 Adds animation to an element property with a defined easing method
 

@@ -30,7 +30,7 @@ function HomepageHeader() {
           
         </div>
         <div className="home__code">
-          <p style={{display: 'inline-block'}}>
+          <p style={{display: 'inline-block', maxWidth: '70vw'}}>
             <CodeBlock language='bash'>npm install domini --save-dev</CodeBlock>
           </p>
           <p>..or directly:</p>

@@ -13,7 +13,7 @@ export function HomePageDown(): JSX.Element {
           <div className="col col--6">
               <p>
                 DoMini aims at using the latest <a href='https://exploringjs.com/es6/' target="_blank">ES6</a> features available for modern web browsers - reducing the output file size significantly.
-                The subset of features aims at projects where older browser compatibility is not an issue and some basic DOM features are sufficient.
+                The subset of features suits projects where older browser compatibility is not an issue and some basic DOM features are sufficient.
               </p>
           </div>
           <div className="col col--6">

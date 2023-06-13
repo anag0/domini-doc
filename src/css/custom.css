@@ -42,7 +42,7 @@
   margin-top: 2rem;
 }
 
-.home__code > p {
+.home__code > .theme-code-block {
   display: inline-block;
   max-width: 70vw;
 }

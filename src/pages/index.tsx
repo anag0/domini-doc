@@ -30,13 +30,17 @@ function HomepageHeader() {
           
         </div>
         <div className="home__code">
-          <p>
+          
+
             <CodeBlock language='bash'>npm install domini --save-dev</CodeBlock>
-          </p>
-          <div><p>..or directly:</p></div>
-          <p>
+          
+
+            <p>..or directly:</p>
+          
+
             <CodeBlock language='html'>&lt;script src=&quot;https://unpkg.com/domini@latest/dist/domini.js&quot;&gt;&lt;/script&gt;</CodeBlock>
-          </p>
+          
+
         </div>
       </div>
     </header>

@@ -1,6 +1,6 @@
-#DoMini documentation
+# [DoMini](https://dominijs.com/) documentation
 
-This is the DoMini documentation source.
+This is the [DoMini](https://dominijs.com/) javascipt library documentation source.
 
 ## Website
 

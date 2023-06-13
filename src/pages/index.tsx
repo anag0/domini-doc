@@ -30,11 +30,11 @@ function HomepageHeader() {
           
         </div>
         <div className="home__code">
-          <p style={{display: 'inline-block', maxWidth: '70vw'}}>
+          <p>
             <CodeBlock language='bash'>npm install domini --save-dev</CodeBlock>
           </p>
-          <p>..or directly:</p>
-          <p style={{display: 'inline-block', maxWidth: '70vw'}}>
+          <div><p>..or directly:</p></div>
+          <p>
             <CodeBlock language='html'>&lt;script src=&quot;https://unpkg.com/domini@latest/dist/domini.js&quot;&gt;&lt;/script&gt;</CodeBlock>
           </p>
         </div>

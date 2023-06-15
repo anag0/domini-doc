@@ -9,3 +9,7 @@
 .row {
   justify-content: center;
 }
+
+.margin-top {
+  margin: 2rem auto 0;
+}

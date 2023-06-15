@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css';
+import CodeBlock from '@theme/CodeBlock';
 
 export function HomePageDown(): JSX.Element {
   return (
@@ -21,6 +22,57 @@ export function HomePageDown(): JSX.Element {
                 DoMini core syntax is <i>mostly</i> identical to jQuery with reduced featureset. Using the well known functions like <code>.each()</code> <code>.data()</code> <code>.css()</code> etc..
                 are all present in DoMini as well, so migrating existing projects is less painful.
             </p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+export function HomePageUp(): JSX.Element {
+  const code1 =`// Find a node and change class & CSS
+  $('div').find('button').addClass('myButton').css({
+      "marginLeft": "10px",
+      "opacity": 0.5
+  });
+
+  // Remove a node && add new
+  if ( $('body').hasClass('rtl') ) {
+    $('button').last().remove(); // remove last button
+    $('body').append('<div>');   // add a new div to body
+  };`
+
+  const code2 =`$('button').on('click', function(){
+    $.fn.ajax({ 
+      url: "http://localhost:3000",
+      data: {
+        options: $('form').serialize();
+      },
+      success: function(response){
+        console.log(response);
+      }
+    });
+  });`
+
+  return (
+    <section className={styles.why}>
+      <div className="container">
+        <div className={'row ' + styles.row}>
+          <div className="col col--6">
+            <h2>Node Manipulation</h2>
+
+            <CodeBlock language='javascript'>
+              {code1}
+            </CodeBlock>
+
+          </div>
+          <div className="col col--6">
+             <h2>Ajax & Event listeners</h2>  
+
+            <CodeBlock language='javascript'>
+              {code2}
+            </CodeBlock>
 
           </div>
         </div>

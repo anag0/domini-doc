@@ -7,7 +7,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import CodeBlock from '@theme/CodeBlock';
 
 import styles from './index.module.css';
-import {HomePageDown, HomePageCompare} from '../components/HomePageDown';
+import {HomePageDown, HomePageCompare, HomePageUp} from '../components/HomePageStuff';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -55,6 +55,7 @@ export default function Home(): JSX.Element {
       description="A minimalistic HTML document manipulation and traversal javascript tool">
       <HomepageHeader />
       <main>
+        <HomePageUp />
         <HomepageFeatures />
         <HomePageDown />
         <HomePageCompare />
